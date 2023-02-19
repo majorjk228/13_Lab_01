@@ -17,10 +17,12 @@ public:
 	//перегруженные операции
 	Time& operator=(const Time&);
 	Time operator+(const Time&);
+	Time operator-(const Time&);
 	Time operator/(const Time&);
 	Time operator/(const int&);
 	bool operator >(const Time&);
 	bool operator <(const Time&);
+	bool operator ==(const Time&);
 	//глобальные функции ввода-вывода
 	friend istream& operator>>(istream& in, Time& t);
 	friend ostream& operator<<(ostream& out, const Time& t);

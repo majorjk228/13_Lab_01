@@ -128,10 +128,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="13_Lab_01.cpp" />
-    <ClCompile Include="Money.cpp" />
+    <ClCompile Include="Time.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Money.h" />
     <ClInclude Include="Time.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
